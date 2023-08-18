@@ -9,7 +9,7 @@ import SideMenu from '../side-menu/SideMenu';
 function MainSection() {
   return (
     <section className={`${styles.mainSection} min-h-[1069px] w-full`}>
-      <div className='flex mt-72 p-5 max-w-[1440px] m-auto min-h-[528px]'>
+      <div className='flex justify-between mt-72 p-5 max-w-[1440px] m-auto min-h-[528px]'>
         <SideMenu />
         <div className='relative w-full max-w-[656px]'>
           <div className='flex gap-3 h-8 items-center mb-4'>

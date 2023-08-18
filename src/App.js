@@ -4,6 +4,7 @@ import './components/main-section/MainSection'
 import MainSection from './components/main-section/MainSection';
 import Header from './components/header/header';
 import CharacterSection from "./components/character-section/CharacterSection";
+import NewsPage from "./components/news-section/NewsSection";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <MainSection />
       <CharacterSection />
+      <NewsPage />
     </div>
   );
 }
