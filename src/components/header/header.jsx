@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../logo/logo';
+import Logo from '../logo/Logo';
 import Cart from '../cart/Cart';
 import Button from '../button/Button';
 import Navigation from '../navigation/Navigation';

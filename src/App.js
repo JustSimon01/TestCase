@@ -5,6 +5,7 @@ import MainSection from './components/main-section/MainSection';
 import Header from './components/header/header';
 import CharacterSection from "./components/character-section/CharacterSection";
 import NewsPage from "./components/news-section/NewsSection";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <MainSection />
       <CharacterSection />
       <NewsPage />
+      <Footer />
     </div>
   );
 }

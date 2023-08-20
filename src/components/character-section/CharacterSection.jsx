@@ -18,7 +18,7 @@ function CharacterSection() {
               <img className='w-8 h-8' src={fireSymbol} alt='Картинка огня' ></img>
               <h3 className='text-[#00c6ff]'>FUTURE OF&nbsp;SPORTS</h3>
             </div>
-            <h1 className='text-white text-6xl text-left leading-tight mb-11'>Customize your Own Character</h1>
+            <h2 className='text-white text-6xl text-left leading-tight mb-11'>Customize your Own Character</h2>
             <p className=' text-gray-500 text-lg text-left max-w-[561px] mb-10'>Sed ut&nbsp;perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam&nbsp; rem aperiam, eaque ipsa quae ab&nbsp;illo inventore veritatis et&nbsp;quasi architecto beatae.</p>
           </div>
           <ImagesTable array={IMAGES_ARRAY} />

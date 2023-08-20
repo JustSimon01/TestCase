@@ -1,0 +1,29 @@
+.gridTable {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 40px 24px;
+  grid-template-areas:
+    "first second third"
+    "first fourth fifth"
+  ;
+}
+
+.first {
+  grid-area: first;
+}
+
+.second {
+  grid-area: second;
+}
+
+.third {
+  grid-area: third;
+}
+
+.fourth {
+  grid-area: fourth;
+}
+
+.fifth {
+  grid-area: fifth;
+}

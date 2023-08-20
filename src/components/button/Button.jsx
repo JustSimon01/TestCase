@@ -21,7 +21,7 @@ function Button({ text, size, color, border }) {
   }
 
   return (
-    <button className={`text-lg text-white border-solid border-white ${color} ${border === true ? 'border-2' : null} ${pyValue} ${pxValue}`}>
+    <button className={`text-lg h-min text-white border-solid border-white ${color} ${border === true ? 'border-2' : null} ${pyValue} ${pxValue}`}>
       {text}
     </button>
   );
