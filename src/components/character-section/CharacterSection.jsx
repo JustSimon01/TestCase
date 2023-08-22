@@ -10,8 +10,10 @@ function CharacterSection() {
 
   return (
     <div className="bg-slate-800 w-full">
-      <div className="flex justify-between px-14 max-w-[1440px] mx-auto">
-        <img src={solder} alt="Солдат в оранжевом камуфляже" className=' max-w-[596px] max-h-[695px] my-auto' />
+      <div className="grid grid-cols-2 gap-5 justify-between px-14 max-w-[1440px] mx-auto">
+
+        <img src={solder} alt="Солдат в оранжевом камуфляже" className='my-auto' />
+
         <div className='max-w-[596px] w-full mt-20'>
           <div className='relative w-full max-w-[656px]'>
             <div className='flex gap-3 h-8 items-center mb-3'>

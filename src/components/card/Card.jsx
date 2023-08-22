@@ -4,25 +4,26 @@ function Card({ image, date, header, size, addClass }) {
 
   switch (size) {
     case 'small':
-      imageMargin = '30px';
-      dateMargin = '20px';
-      dateTextSize = '16px';
-      headerTextSize = '24px';
-      maxWidth = '312px';
+      imageMargin = 'mb-[30px]';
+      dateMargin = 'mb-[20px]';
+      dateTextSize = 'text-[16px]';
+      headerTextSize = 'text-[24px]';
+      maxWidth = 'max-w-[312px]';
       break;
     default:
-      imageMargin = '54px';
-      dateMargin = '28px';
-      dateTextSize = '18px';
-      headerTextSize = '36px';
-      maxWidth = '648px';
+      imageMargin = 'mb-[54px]';
+      dateMargin = 'mb-[28px]';
+      dateTextSize = 'text-[18px]';
+      headerTextSize = 'text-[36px]';
+      maxWidth = 'max-w-[648px]';
+      break;
   }
 
   return (
-    <div className={`max-w-[${maxWidth}] text-left ${addClass}`}>
-      <img src={image} alt={`Картинка для новости ${header}`} className={`mb-[${imageMargin}] rounded-[40px]`} />
-      <p className={`mb-[${dateMargin}] text-[#00c6ff] text-[${dateTextSize}]`}>{date}</p>
-      <h4 className={`text-white text-[${headerTextSize}]`}>{header}</h4>
+    <div className={`${maxWidth} text-left ${addClass}`}>
+      <img src={image} alt={`Картинка для новости ${header}`} className={`${imageMargin} rounded-[40px]`} />
+      <p className={`${dateMargin} text-[#00c6ff] ${dateTextSize}`}>{date}</p>
+      <h4 className={`text-white ${headerTextSize}`}>{header}</h4>
     </div>
   );
 }

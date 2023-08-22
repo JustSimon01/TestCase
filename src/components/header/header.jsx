@@ -11,7 +11,7 @@ function Header() {
         <Logo />
       </div>
       <Navigation />
-      <div className='flex gap-5 items-end items-center w-64'>
+      <div className='flex gap-5 items-center w-64'>
         <Cart />
         <Button text={'Contact Us'} border={true} />
       </div>

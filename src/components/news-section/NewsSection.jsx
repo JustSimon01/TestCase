@@ -23,12 +23,7 @@ function NewsPage() {
           <Button text={'Read More'} color={'bg-[#00c6ff]'} size={'big'} />
         </div>
         <div className={`${styles.gridTable}`}>
-          {/* <img src={image_1} className={`${styles.first}`} />
-          <img src={image_1} className={`${styles.second}`} />
-          <img src={image_1} className={`${styles.third}`} />
-          <img src={image_1} className={`${styles.fourth}`} />
-          <img src={image_1} className={`${styles.fifth}`} /> */}
-          <Card image={image_1} header={"Esports Group teams up with the Indianapolis Colts"} date={"April 2, 2021"} addClass={`${styles.first}`} />
+          <Card size={'big'} image={image_1} header={"Esports Group teams up with the Indianapolis Colts"} date={"April 2, 2021"} addClass={`${styles.first}`} />
           <Card size={'small'} image={image_2} header={"NAVI reveals s1mple fifth anniversary"} date={"April 2, 2021"} addClass={`${styles.second}`} />
           <Card size={'small'} image={image_3} header={"A1esports Shares new picture"} date={"April 2, 2021"} addClass={`${styles.third}`} />
           <Card size={'small'} image={image_4} header={"T1 unveil partnership with Razer"} date={"April 2, 2021"} addClass={`${styles.fourth}`} />
