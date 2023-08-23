@@ -6,7 +6,7 @@ import Navigation from '../navigation/Navigation';
 
 function Header() {
   return (
-    <header className='flex absolute top-0 justify-between items-center h-16 pt-5 max-w-[1320px] w-full box-content'>
+    <header className='flex absolute top-0 justify-between items-center h-16 pt-5 px-3 max-w-[1334px] w-full box-border'>
       <div className='flex items-start w-64'>
         <Logo />
       </div>
